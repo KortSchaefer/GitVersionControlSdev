@@ -21,5 +21,3 @@ git show <hash>, git blame file.py to see who/when lines changed
 Shaping history (lite intro)
 
 squash/fixup during PRs to keep main clean, but don’t rewrite shared history like a maniac
-
-If you want, toss me a chapter/exercise and I’ll rewrite it in this same messy-human style with the exact commands you’ll run.
