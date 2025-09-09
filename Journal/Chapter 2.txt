@@ -1,0 +1,29 @@
+Chapter 2: Installation and Setup.
+
+- Install Git + check it
+
+- grab installer (win/mac/linux), then git --version to make sure it’s alive
+
+- Set your identity (so commits aren’t “mystery me”)
+
+- git config --global user.name "Your Name"
+
+- git config --global user.email you@example.com
+
+- Default editor + default branch name (bc “master/main” confusion)
+
+- git config --global core.editor "code --wait" (or whatever)
+
+- git config --global init.defaultBranch main
+ 
+- Line endings weirdness (Windows vs Unix)
+
+- git config --global core.autocrlf true on Windows usually fine
+
+- Config levels (where stuff lives)
+
+- system / global / local (repo) — local wins if it conflicts
+
+-Remote auth
+
+-HTTPS (simple) vs SSH (nice long-term) — ssh-keygen then add key to GitHub and ssh -T git@github.com to test-

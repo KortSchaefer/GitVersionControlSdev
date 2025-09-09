@@ -1,0 +1,21 @@
+Chapter 1: Version Controll Systems.
+
+ - Basic description of version control
+  	- Version control is a method of organizing changes to a directory to give the user control over all aspects of the history of that given directory
+
+- Central vs Distributed VCS
+
+- Git is a Distributed and is great for offline/speed
+
+- Gits model:
+	- Repositorys
+	- Snapshots
+	- Commits
+	- Branches
+	- merges
+
+- Traceability
+	- Who, What, When, Where, Why
+
+- Safe experimentation w/ branches
+

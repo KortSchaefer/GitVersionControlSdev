@@ -1,0 +1,29 @@
+Chapter 3: Getting Started.
+
+Make a repo (two ways)
+
+git init (start empty here)
+
+git clone <url> (copy existing)
+
+File life cycle (this bites ppl at first)
+
+untracked → staged → committed
+
+git status (your best friend)
+
+git add <file> or git add . to stage
+
+git commit -m "message" to save snapshot
+
+See what changed
+
+git diff (working vs staged), git diff --staged (staged vs last commit)
+
+git log (history), add --oneline when your eyes hurt
+
+Ignore junk early
+
+make .gitignore (env files, build junk, .venv/, node_modules/, etc.)
+
+protip: once tracked, .gitignore won’t untrack it—use git rm --cached <file>

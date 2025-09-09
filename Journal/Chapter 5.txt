@@ -1,0 +1,25 @@
+Chapter 5: Commits.
+
+Make small, focused commits (future you will thank present you)
+
+one idea per commit, keep the blast radius tiny
+
+Write better messages (not poetry, just useful)
+
+short subject (“Fix off-by-1 in loop”), then a blank line, then why/how if needed
+
+Fix a fresh mistake w/ amend
+
+git commit --amend (typo in msg? forgot a file? add it + amend)
+
+note: don’t amend stuff you already pushed/shared unless team is cool w/ it
+
+Peek inside commits + blame (not mean blame, just info)
+
+git show <hash>, git blame file.py to see who/when lines changed
+
+Shaping history (lite intro)
+
+squash/fixup during PRs to keep main clean, but don’t rewrite shared history like a maniac
+
+If you want, toss me a chapter/exercise and I’ll rewrite it in this same messy-human style with the exact commands you’ll run.
